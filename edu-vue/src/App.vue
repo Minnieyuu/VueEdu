@@ -24,6 +24,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/FormInputView">FormInputView</RouterLink>
         <RouterLink to="/OnMountedView">OnMountedView</RouterLink>
         <RouterLink to="/WatchView">WatchView</RouterLink>
+        <RouterLink to="/ChildView">Emits&Props</RouterLink>
       </nav>
     </div>
   </header>

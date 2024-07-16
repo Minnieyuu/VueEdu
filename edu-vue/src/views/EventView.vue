@@ -6,9 +6,12 @@ function dochange(event) {
 }
 </script>
 <template>
-  <select @change="dochange">
-    <option v-for="aNum in num" :key="aNum">{{ aNum }}</option>
-  </select>
-
-  <button @click.ctrl="dochange">A</button>
+  <div>
+    <select @change="dochange">
+      <option v-for="aNum in num" :key="aNum">{{ aNum }}</option>
+    </select>
+    <br />
+    <span>click with Ctrl</span>
+    <button @click.ctrl="dochange" value="A">A</button>
+  </div>
 </template>

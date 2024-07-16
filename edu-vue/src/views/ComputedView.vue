@@ -10,7 +10,11 @@ const clickTimes = computed(() => {
 })
 </script>
 <template>
-  <span>點擊次數：{{ count }}</span>
-  <span>點擊次數超過五次：{{ clickTimes }}</span>
-  <button @click="doclick">Button</button>
+  <div id="app">
+    <span>點擊次數：{{ count }}</span>
+    <span>點擊次數超過五次：{{ clickTimes }}</span>
+    <br />
+    <button @click="doclick">Button</button>
+    <MyComponent></MyComponent>
+  </div>
 </template>

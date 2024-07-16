@@ -6,6 +6,8 @@ function doclick() {
 }
 </script>
 <template>
-  <span>點擊次數：{{ count }}</span>
-  <button @click="doclick">Button</button>
+  <div>
+    <span>點擊次數：{{ count }}</span>
+    <button @click="doclick">Button</button>
+  </div>
 </template>

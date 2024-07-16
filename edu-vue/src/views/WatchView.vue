@@ -21,9 +21,11 @@ watch(question, async (newQuestion) => {
 </script>
 
 <template>
-  <p>
-    Ask a yes/no question:
-    <input v-model="question" :disabled="loading" />
-  </p>
-  <p>{{ answer }}</p>
+  <div>
+    <p>
+      Ask a yes/no question:
+      <input v-model="question" :disabled="loading" />
+    </p>
+    <p>{{ answer }}</p>
+  </div>
 </template>
