@@ -27,6 +27,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/ChildView">Emits&Props</RouterLink>
         <RouterLink to="/SlotParentView">SlotView</RouterLink>
         <RouterLink to="/FinishView">FinishView</RouterLink>
+        <RouterLink to="/DefineModelParentView">DefineModel</RouterLink>
       </nav>
     </div>
   </header>
