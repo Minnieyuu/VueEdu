@@ -12,3 +12,6 @@ app.use(createPinia());
 app.use(router);
 
 app.mount('#app');
+
+const env = import.meta.env.VITE_ENV;
+console.log(`env:${env}`);
